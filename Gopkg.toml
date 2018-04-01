@@ -77,6 +77,11 @@
   version = "~0.7.1"
   name = "github.com/tendermint/tmlibs"
 
+[[constraint]]
+  branch = "master"
+  source = "github.com/golang/crypto"
+  name = "golang.org/x/crypto"
+
 [prune]
   go-tests = true
   unused-packages = true
